@@ -2,6 +2,9 @@
 <h3>Overview</h3>
 This is a simple to-do list web application built using HTML, CSS, and JavaScript. The to-do list allows users to add, edit, and delete tasks, with the tasks stored in the browser's local storage so they persist even after the page is refreshed.
 
+
+<img src="apperaence.png" alt="img">
+
 <h3>Features</h3>
 Add new tasks.
 Edit existing tasks.
@@ -36,24 +39,7 @@ The appendChild() method is used to dynamically add a new element to an existing
 Create an Element: A new <li> element is created to represent the task.
 Set the Text and Attributes: The text of the task is set, and necessary classes are applied.
 Append the Element: The newly created <li> element is appended to the parent <ul>.
-Code Example:
-js
-Copy code
-// Create a new list item and append it to the list
-function addTaskToList(taskText) {
-    const li = document.createElement('li'); // Create new <li> element
-    li.textContent = taskText; // Set task text
-    document.querySelector('ul').appendChild(li); // Append <li> to the <ul>
-}
-Folder Structure
-graphql
-Copy code
-project-folder/
-│
-├── index.html          # The main HTML file
-├── style.css           # The CSS file for styling
-├── script.js           # The JavaScript file that handles the functionality
-└── README.md           # This file, describing the project
+
 How to Set Up and Run
 Download the project or clone it from the repository.
 Open index.html in your browser to run the to-do list app.
