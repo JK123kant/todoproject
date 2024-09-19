@@ -1,0 +1,94 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(67 83 111), rgb(221 13 84 / 54%));
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2 {
+    width: 111%;
+    max-width: 507px;
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    border-radius: 10px;
+    padding: 40px 30px 70px;
+    margin: 28px auto 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+h1 {
+    color: #f4f4f4;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#inputbox {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+#input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+#btn {
+    outline: none;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background-color: #f05454;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 17px;
+    color: #f4f4f4;
+    list-style: decimal;
+    cursor: pointer;
+    padding: 8px 12px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ul li span {
+    position: absolute;
+    right: 20px;
+    color: #f05454;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul li span:hover {
+    background-color: rgba(255, 85, 85, 0.7);
+    color: #fff;
+    padding: 2px 5px;
+}
